@@ -1,0 +1,11 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinden binary search tree oluşturmak için öncelikle 7 den başlarız. 7 root'umuz olsun.
+
+5, 7'den küçüktür. bu yüzden 7'nin soluna 5 yazılır. 
+1, 7'den küçüktür. 5'ten de küçüktür, bu yüzden 5'in soluna 1 yazılır.
+8, 7'den büyüktür. bu yüzden 7'nin sağına 8 yazılır.
+3, 7'den küçüktür, 5'ten de küçüktür, 1'den ise büyüktür. bu yüzden birin sağına 3 yazılır.
+6, 7'den küçüktür. 3'ten ise büyüktür. 3'ün sağına 6 yazılır.
+0, 7'den küçük ve 6'dan küçüktür. 6'nın soluna 0 yazılır.
+9 da 7'den büyüktür, 8'den de büyüktür. 8'in sağına 9 yazılır.
+4, 7'den küçüktür. en son yazılan 0'dan ise büyüktür. bu yüzden 0'ın sağına 4 yazılır.
+son olarak 2, 7'den küçüktür ve 4'ten de küçüktür. bu yüzden 4'ün soluna 2 yazılır. 
